@@ -23,6 +23,10 @@ def loadmain(fileName):
                     fill(line)
 		elif each == 'dropdown':
 		    dropdown(line)
+		elif each == 'radio':
+		    radio(line)
+		elif each == 'clickclass':
+		    clickclass(line)
 def fill(line):
     print "++Function FILL"
     line.pop(0)
@@ -49,3 +53,13 @@ def dropdown(line):
     line.pop(0)
     name = get_element(name=line[0])
     set_dropdown_value(name,line[1])
+def radio(line):
+    line.pop(0)
+    set_radio_value(line[0])
+def clickclass(line):
+    line.pop(0)
+    for each in line:
+        name = get_element(css_class=each)
+        click_element(name)
+	sleep(10)
+    
