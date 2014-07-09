@@ -16,4 +16,5 @@ fill,Expire,1515
 fill,CSC,111
 clickname,Checkout
 radio,LBY
+clickclass,ContinueUSLink
 
