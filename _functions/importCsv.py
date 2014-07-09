@@ -27,10 +27,6 @@ def loadmain(fileName):
 		    radio(line)
 		elif each == 'clickclass':
 		    clickclass(line)
-def fill(line):
-    print "++Function FILL"
-    line.pop(0)
-    print line
 def go(line):
     print "++Function GO"
     line.pop(0)
@@ -62,4 +58,4 @@ def clickclass(line):
         name = get_element(css_class=each)
         click_element(name)
 	sleep(10)
-    
+
