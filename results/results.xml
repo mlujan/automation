@@ -1,4 +1,0 @@
-<testsuite errors="0" failures="0" name="" tests="2" time="33.574">
-<testcase classname="tests.test1" name="importData" time="16.800"/>
-<testcase classname="tests.test2" name="importData" time="16.771"/>
-</testsuite>
