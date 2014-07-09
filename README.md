@@ -6,9 +6,9 @@ virtualenv  --python=python2.7 env
 
 pip install sst
 
-git clone https://github.com/mlujan/Test-web.git
+git clone https://github.com/mlujan/automation.git
 
-cd Test-web 
+cd automation
 
 sst-run -r xml
 
