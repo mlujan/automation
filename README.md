@@ -1,8 +1,8 @@
 #Prerequisite
-#Install Python 2.7
-#In windows:
-#set PATH=%PATH%;C:\Python27
-#set PATH=%PATH%;C:\Python27\scripts
+Install Python 2.7
+In windows:
+set PATH=%PATH%;C:\Python27
+set PATH=%PATH%;C:\Python27\scripts
 #Pip install virtualenv
 Install git
 http://git-scm.com/download/win
